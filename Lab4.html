@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    var numbers=[1, 2, 3, 4, 5]
+    console.log("Задание №1")
+    console.log (numbers[1], numbers[numbers.length-2])
+
+
+    console.log("Задание №2")
+    var letters=["я", "ты", "он", "она", "они"]
+    console.log(letters)
+    var zapas = letters[0]
+    letters[0] = letters[2]
+    letters[2]= zapas
+    console.log(letters)
+
+
+    console.log("Задание №3")
+    var A = [Math.random(), Math.random(), Math.random(), Math.random()]
+    console.log(A)
+
+
+    console.log("Задание №4")
+    var A = [2, 10, 3]
+    console.log(A)
+    A.push(100)
+    A.unshift(100)
+    console.log(A)
+    A.shift()
+    A.push()
+    console.log(A)
+    A.length=0
+    console.log(A)
+
+
+    console.log("Задание №5")
+    var colors = ["white", "blue", "yellow"]
+    console.log(colors.join(" или "))
+    console.log(colors.join(", "))
+    console.log(colors.join(":"))
+
+    console.log("Задание №6")
+    var colors = ["white", "blue", "yellow"]
+    var numbers = [1, 2, 3]
+    var color_number = colors.concat(numbers)
+    console.log(colors)
+    console.log(color_number)
+
+
+    console.log("Задание №7")
+    var arr = [1,2,3,4,5,6]
+    console.log(arr.slice(1));
+    console.log(arr.slice(1,4));
+    console.log(arr.slice(3,4));
+    console.log(arr.slice(-2));
+    console.log(arr.slice(arr.length-2));
+    console.log(arr.slice(-3,-1));
+    console.log(arr.slice(arr.length-3,arr.length-1));
+
+
+    console.log("Задание №8")
+    var colors = ["white","yellow" ,"blue",]
+    console.log(colors);
+    colors.reverse()
+    console.log(colors);
+    colors.sort()
+    console.log(colors);
+
+
+    console.log("Задание №9");
+    var arr = [1,2,3,4,5,6]
+    arr.splice(3,2)
+    console.log(arr)
+    arr.splice(-5,2)
+    console.log(arr)
+    arr.splice(2,0,7)
+    console.log(arr)
+  </script>
+</body>
+</html>
