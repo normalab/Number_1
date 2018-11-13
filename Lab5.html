@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+  console.log("Задание №1")
+    console.log("Показывал на занятии")
+
+  console.log("Задание №2")
+    console.log("Показывал на занятии")
+
+  console.log("Задание №3")
+    console.log("Показывал на занятии")
+
+
+  console.log("Задание №4")
+    var x=4, y
+    y=4*x++
+    console.log(x)
+    console.log(y)
+    // В итоге вышло: х=5; у=16("у" вычисляется путем умножения изначального значения "х" на 4; "х"=5 в следствии опертора "постфиксный инкремен" )
+
+  console.log("Задание №5")
+    var a=2
+    a *= 2+5
+      //Ответ:14. Вначале идет действие:"2+5", а после:"а *="  (а *= 2+5 умножает результат суммы 2+5 на "а")
+
+    var a=3, c=2+ ++a
+    a=a+c
+    //Ответ:10. Операнд "с" равняется 6(т.к. "++а"- префиксный инкремен), а(4)+с(6)=10
+
+    var a=3, c=2+a++
+    a=a+c
+    //Ответ:9. Операнд "с" равняется 5(т.к. "а++"- постфиксный инкремен), а(4)+с(5)=9
+    console.log("Объясннил в файле")
+  </script>
+</body>
+</html>
