@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script type="text/javascript">
+  alert("Задание №7")
+    var value =prompt("Введите число:")
+    if (value==1000)
+      alert("Верно")
+    else
+      alert("Не верно")
+    var value1 =prompt("Введите число:")
+      alert((value1==1000)? "Верно":"Не верно")
+
+
+  alert("Задание №8")
+    var a = 5+1
+      switch ( a ) {
+        case 9:
+          alert("Это меньше а")
+            break;
+        case 10:
+          alert("Это есть а")
+            break;
+        case 11:
+          alert("Это больше а")
+            break;
+        default:
+          alert("Это не а")
+    }
+
+
+  alert("Задание №9")
+    var lang =prompt("Выберите язык(ru/en):")
+    var week
+    if (lang=="ru"){
+      week =["Понедельник", " Вторник", " Среда", " Четверг", " Пятница", " Субота", " Воскресение"]
+        alert(week)
+    }
+    else if (lang=="en"){
+      week =["Monday", " Tuesday", " Wednesday", " Thursday", " Friday", " Saturday", " Sunday"]
+        alert(week)
+    }
+    else
+      alert("Ошибка при выборе языка")
+    var lang1 =prompt("Выберите язык(ru/en):")
+    var week1
+    switch (lang1) {
+      case "ru":
+        week1 =["Понедельник", " Вторник", " Среда", " Четверг", " Пятница", " Субота", " Воскресение"]
+        alert(week1)
+          break;
+      case "en":
+        week1 =["Monday", " Tuesday", " Wednesday", " Thursday", " Friday", " Saturday", " Sunday"]
+        alert(week1)
+    }
+  alert("Задание №10")
+    var number1 =+prompt("Введите первое число:")
+    var sign =prompt("Выберите действие(сложение/вычитание/умножение/деление):")
+    var number2 =+prompt("Введите второе число:")
+    var result
+      switch (sign) {
+        case "Сложение":
+          result=number1 + number2
+          alert(result)
+            break
+        case "Вычитание":
+          result=number1 - number2
+          alert(result)
+            break
+        case "Умножение":
+          result=number1 * number2
+          alert(result)
+            break
+        case "Деление":
+          if(number2>0){
+            result=number1 / number2
+            alert(result)}
+          else if(number2== "0")
+            alert("На 0 делить нельзя!")
+      }
+
+
+  alert("Задание №11")
+      
+
+  </script>
+</body>
+</html>
