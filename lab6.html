@@ -1,1 +1,96 @@
-sefsd
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script type="text/javascript">
+    alert("Задание №1 ")
+      var a = prompt("Введите первое число:")
+      var b = prompt("Введите второе число :")
+      var c
+
+      if(a>b)
+        c=a
+
+      else if(b>a)
+        c=b
+
+      alert(c)
+
+
+    alert("Задание №2")
+      var x = prompt("Введите число:")
+      var y = prompt("Введите число:")
+      var c
+
+      if(x>y){
+        c=x
+        x=y
+        y=c
+      }
+      alert(x)
+      alert(y)
+
+
+      alert("Задание №4")
+      var a = prompt("Введите число:")
+      var b = prompt("Введите число:")
+      var c = prompt("Введите число:")
+      var d
+
+      if(a>b)
+        d=a
+
+      else if(b>a)\
+        d=b
+
+      if(c>d)
+        d=c
+
+
+      alert(d)
+
+      alert("Задание №5, 6")
+      var ageFa = prompt("Введите возраст своего отца:")
+      var ageMa = prompt("Введите возраст своей матери:")
+
+       if(ageFa>ageMa)
+         alert("Ваш отец старше матери")
+       else if(ageMa>ageFa)
+         alert("Ваша мать старше отца")
+       else if(ageFa==ageMa)
+         alert("Ваши родители ровесники")
+
+
+      alert("Задание №7")
+
+        var number1 =+prompt("Введите первое число:")
+        var sign =prompt("Выберите действие(сложение/вычитание/умножение/деление):")
+        var number2 =+prompt("Введите второе число:")
+        var result
+
+        if(sign== "Сложение"){
+          result=number1 + number2
+          alert(result)
+        }
+        else if(sign== "Вычитание"){
+          result=number1 - number2
+          alert(result)
+        }
+        else if(sign== "Умножение"){
+          result=number1 * number2
+          alert(result)
+        }
+        else if(sign== "Деление")
+          if(number2>0){
+            result=number1 / number2
+            alert(result)}
+          else if(number2== "0")
+            alert("На 0 делить нельзя!")
+  </script>
+</body>
+</html>
